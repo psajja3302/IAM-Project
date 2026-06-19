@@ -11,3 +11,6 @@ On the left hand side, you can see "Microsoft Entra ID" near the bottom. On this
 
 ## Entra ID P2
 For part of this project, we need Entra ID P2. Go to Licenses → Get a free trial → activate Entra ID P2.
+
+## Next Steps
+Go to the "User Lifecycle Management" file, where we will learn how to add users, create groups, and simulate joiner/mover/leaver workflows
