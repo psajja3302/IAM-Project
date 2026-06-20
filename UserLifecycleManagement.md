@@ -69,6 +69,7 @@ As the IAM Administrator, it is your job that John moves from the "Engineering" 
 <img width="850" height="615" alt="image" src="https://github.com/user-attachments/assets/9ca664d3-a758-404c-abce-61384bc814cf" />
 
 When these attributes change, John should be automatically removed from the Engineering Group and added to the Security Group
+
 <img width="517" height="210" alt="image" src="https://github.com/user-attachments/assets/1b0e4a37-8a0e-465c-8d26-93e6edf8494c" />
 
 ## Employee Termination (Leaver)
