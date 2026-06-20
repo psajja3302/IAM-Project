@@ -97,6 +97,7 @@ Step 5: Delete Account after Retention Period
 1. Go to Users -> John Green -> Delete John Green
 2. This is only considered a soft delete. Entra will permanently delete the user after 30 days, but if you want, you can delete the account immediately by navigating to "Deleted Users"
 <img width="586" height="331" alt="image" src="https://github.com/user-attachments/assets/69aed152-aa77-4a22-8c38-b4c67e13ea8e" />
+
 3. By selecting "Delete Permanently", he will be gone forever. Goodbye John!
 
 ## JML Diagram
