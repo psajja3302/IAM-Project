@@ -112,3 +112,6 @@ Since this is only a lab user without any real data, there isn't anything to rea
 # Reflection
 Through this project, I gained hands-on experience with Microsoft Entra ID and learned the fundamentals of Identity and Access Management (IAM) by simulating the Joiner, Mover, and Leaver (JML) process. Creating, modifying, and disabling user accounts helped me understand how organizations manage roles throughout an employee's lifecycle and ensure appropriate access is maintained at each stage. I also became familiar with basic navigation within the Entra ID portal, including managing users, groups, licenses, and audit logs. Additionally, documenting the JML workflow through a diagram reinforced the importance of structured onboarding, role changes, and offboarding processes in reducing security risks and supporting effective access control within an organization.
 
+## Next Steps
+Please move to the `SSO/Federation.md` file next.
+
