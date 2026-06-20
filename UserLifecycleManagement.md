@@ -14,6 +14,7 @@ Company Structure
 
 
 ## Hire New Onboarding - Creating Users
+As the IAM administrator, it is your job to understand how to create and add users to your organization, also known as the onboarding process. You are hiring 5 fresh employees this season.
 1. On the Microsoft Entra ID page, scroll down to view quick actions. Click on `Add User`. Create 1-2 users manually.
 2. If you have the Microsoft Entra Suite, you can enforce password complexity by going to `Microsoft Entra Password Protection` and set rules
 3. You can assign properties to each user, such as job information, department, etc.
