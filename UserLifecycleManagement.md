@@ -35,7 +35,7 @@ On Google Sheets or Microsoft Excel, create and import the remaining users using
 <img width="274" height="266" alt="image" src="https://github.com/user-attachments/assets/027c067e-c795-441f-a5a2-b74ca44de68a" />
 
 ## Group Membership - Dynamic Assignment
-After creating our users, we need to add them to groups for simplified management
+After creating our users, we need to add them to groups for simplified management. The table below are my users that I added.
 
 | Name          | Job Title              | Department     |
 | ------------- | ---------------------- | ---------------|
@@ -56,5 +56,7 @@ After creating our users, we need to add them to groups for simplified managemen
 
 6. Since I had "John Green" assigned in the "Engineering" department, his account was autopopulated to this group
 <img width="617" height="355" alt="image" src="https://github.com/user-attachments/assets/cea8dae8-6110-4a5f-a831-ed9774a06b38" />
+
+7. I did the same for Dragon, Adi, Dim, and Jeff.
 
 
