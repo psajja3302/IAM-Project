@@ -59,4 +59,20 @@ After creating our users, we need to add them to groups for simplified managemen
 
 7. I did the same for Dragon, Adi, Dim, and Jeff.
 
+## Role Changing (Mover)
+After a few years of working as a Software Engineer, John had learned a lot about AppSec as he went by. He had been promoted to an AppSec Engineer.
+As the IAM Administrator, it is your job that John moves from the "Engineering" Department to the "Security" Department smoothly.
+
+1. Go to Users -> John Green -> Edit Properties -> Job Information
+2. Change his `Job Title` to AppSec Engineer
+3. Change his `Department` to Security
+<img width="850" height="615" alt="image" src="https://github.com/user-attachments/assets/9ca664d3-a758-404c-abce-61384bc814cf" />
+
+When these attributes change, John should be automatically removed from the Engineering Group and added to the Security Group
+<img width="517" height="210" alt="image" src="https://github.com/user-attachments/assets/1b0e4a37-8a0e-465c-8d26-93e6edf8494c" />
+
+## Employee Termination (Leaver)
+After working as an AppSec Engineer, John had decided he had made enough money and retired from Gitty Solutions.
+As the IAM Administrator, it is your job to correctly offboard John from Gitty Solutions.
+
 
