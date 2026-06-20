@@ -36,4 +36,25 @@ On Google Sheets or Microsoft Excel, create and import the remaining users using
 
 ## Group Membership - Dynamic Assignment
 After creating our users, we need to add them to groups for simplified management
-1. Go to Default Directory -> Manage -> Groups -> All Groups
+
+| Name          | Job Title              | Department     |
+| ------------- | ---------------------- | ---------------|
+| John Green    | Software Engineer      | Engineering    |
+| Dragon Green  | Security Engineer      | Security       |
+| Adi Green     | Accountant             | Finance        |
+| Dim Green     | SysAdmin               | IT Operations  |
+| Jeff Green    | HR Specialist          | HR             |
+
+1. Go to Default Directory -> Manage -> Groups -> All Groups -> New Group
+2. Create a Group for each Department
+3. For each group, select "Security" as the Group Type, Select Dynamic User
+<img width="706" height="437" alt="image" src="https://github.com/user-attachments/assets/ffa8ffae-9bee-4a13-9d33-54629d77ce2f" />
+
+4. Click Add Dynamic Query, which opens the rule builder
+5. Add the rule for the group so that the users of a department are assigned to that department's group
+<img width="1900" height="274" alt="image" src="https://github.com/user-attachments/assets/19fec29e-3646-47bf-bb9f-5869dd25620f" />
+
+6. Since I had "John Green" assigned in the "Engineering" department, his account was autopopulated to this group
+<img width="617" height="355" alt="image" src="https://github.com/user-attachments/assets/cea8dae8-6110-4a5f-a831-ed9774a06b38" />
+
+
