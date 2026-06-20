@@ -86,16 +86,19 @@ As the IAM Administrator, it is your job to correctly offboard John from Gitty S
 <img width="844" height="158" alt="image" src="https://github.com/user-attachments/assets/45479b5e-457d-4f1b-bfe7-789bd4b295b7" />
 
 **Step 3: Remove Group Memberships**
+
 3. Go to Users -> John Green -> Edit Properties -> Job Information -> Remove Job Title and Department. This will remove him from the group because of the dynamic assignment. Note: I tried to remove John Green
 using the "Remove membership button", but it said I had insufficient privileges, so I used this method instead.
 
 **Step 4: Archive User Data**
+
 Since this is only a lab user without any real data, there isn't anything to really "Archive". If John hypothetically did have OneDrive/Sharepoint or other sorts of data on the account, we would archive it by transferring the ownership of the files to a manager/secondary owner that will hold onto the data until account is deleted (after the retention period). We could do this by:
 1. Go to Microsoft 365 Admin Center -> Users -> Active Users -> Select John Green -> OneDrive
 2. From there, you would be able to move the ownership of the files to an appropriate account/manager (Nothing shows up here since there was never anything in John's account in the first place)
 <img width="552" height="323" alt="image" src="https://github.com/user-attachments/assets/7f6088a2-ed44-4a79-86d8-53963b76d069" />
 
 **Step 5: Delete Account after Retention Period**
+
 1. Go to Users -> John Green -> Delete John Green
 2. This is only considered a soft delete. Entra will permanently delete the user after 30 days, but if you want, you can delete the account immediately by navigating to "Deleted Users"
 <img width="586" height="331" alt="image" src="https://github.com/user-attachments/assets/69aed152-aa77-4a22-8c38-b4c67e13ea8e" />
