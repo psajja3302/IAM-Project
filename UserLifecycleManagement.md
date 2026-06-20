@@ -13,6 +13,6 @@ Company Structure
 | Security        | Monitoring and compliance  |
 
 
-## Creating Users
-1. On the Microsoft Entra ID page, scroll down to view quick actions. Click on `Add User`. Create 5-10 users manually
-2. 
+## Hire New Onboarding - Creating Users
+1. On the Microsoft Entra ID page, scroll down to view quick actions. Click on `Add User`. Create 2-5 users manually
+2. On Google Sheets or Microsoft Excel, create and import the remaining users using a CSV import
