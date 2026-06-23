@@ -12,8 +12,11 @@ From here onwards, I will be using Entra's Admin Center for this file and the ne
 - Click on "2. Set up single sign on"
 - With Salesforce, there are 3 SSO methods provided. We will pick SAML.
 - Configure your Identifier, Reply URL, and Sign on URL
+
 Identifier: The unique name of the application you are identifying into. If you don't match the Entity ID, then the session won't be established
+
 Reply URL: The location Salesforce wants Entra to send the SAML assertion after login.
+
 Sign on URL: Where users start the login process
 
 **Step 3: Create Salesforce Account + Setup**
