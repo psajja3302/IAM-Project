@@ -38,10 +38,12 @@ Identifier + Reply URL = Entity ID
 
 
 **Step 4: Test SSO**
+
 Method 1: Test from Entra 
 - From Entra, click on the "5. Test single sign-on with Salesforce" button
 - Click test Sign In
 - If it works, you'll land in Salesforce without entering Salesforce credentials.
+
 Method 2: Test from Microsoft Apps
 - From Entra, make sure your email/user is assigned to the app.
 - Open https://myapplications.microsoft.com/
