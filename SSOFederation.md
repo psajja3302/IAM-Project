@@ -26,10 +26,13 @@ In order to configure your identifier, reply url, and Sign on URL, you need a Sa
 - After making an account and signing in, in the top right, click on the Gear icon and select "Setup"
 - In the quick search bar, search up "My Domain"
 <img width="661" height="74" alt="image" src="https://github.com/user-attachments/assets/29d9e50f-891d-42ce-86e5-82d60a95ba2e" />
+
 Sign on URL = Current My Domain URL
+
 - In the quick search bar, search up "Single Sign-On Settings"
 - On Entra ID Saleforce SAML Settings, download the Federation Metadata XML (Under 3. SAML Certificates)
 - On Salesforce, click the "Download Metadata" button and import the Federation Metadata XML file into here
+
 Identifier + Reply URL = Entity ID
 <img width="1329" height="98" alt="image" src="https://github.com/user-attachments/assets/0bca49fa-4473-4c38-80be-99b794141283" />
 
