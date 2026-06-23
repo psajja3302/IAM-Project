@@ -17,6 +17,7 @@ Reply URL: The location Salesforce wants Entra to send the SAML assertion after 
 Sign on URL: Where users start the login process
 
 **Step 3: Create Salesforce Account + Setup**
+
 In order to configure your identifier, reply url, and Sign on URL, you need a Salesforce Developer Account
 - Search up "Salesforce Developer Edition" on Google and create a free account
 - After making an account and signing in, in the top right, click on the Gear icon and select "Setup"
