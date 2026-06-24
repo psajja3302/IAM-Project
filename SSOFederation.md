@@ -51,3 +51,9 @@ Method 2: Test from Microsoft Apps
 - If it works, you'll land in Salesforce without entering Salesforce credentials.
 
 ## Building a Flask App
+Not only can we configure SSO through the built in library, we can also create our own SSO application through Entra ID.
+
+**Step 1: Create and Register Application (https://learn.microsoft.com/en-us/power-pages/security/authentication/openid-settings)**
+- Entra ID -> App Registrations -> New Registration
+- Enter a name for the application
+- Account type: Single tenant
