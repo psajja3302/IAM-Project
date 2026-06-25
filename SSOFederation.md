@@ -62,3 +62,4 @@ After following these steps, you can create a flask app by importing the flask m
 If your code is properly created, you should be able to login via your Entra ID Account.
 
 ## Next Steps
+Please move to the `RBAC Design.md` file next.
