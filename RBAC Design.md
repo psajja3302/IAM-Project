@@ -24,8 +24,12 @@ As you can see, Phase 1's dynamic groups remain for organizational structure, wh
 
 ## Why RBAC over Direct/Ad Hoc Assignment
 **Auditing**: When viewing audit logs, removing someone from group is much easier to spot than several direct role assignments removed at different times, especially when scaled to a large corporation
+
 **Control**: When users move between groups, particularly RBAC groups, the mover workflow will adjust permissions automatically.
+
 **Least Privilege**: With Ad Hoc approaches, you may find a user "privilege creeping", where that user has accumulated too many permission as they were constantly changing roles. RBAC controls this by enforcing least privilege, where the user has the least amount of access required to perform their job.
 
-## Establish Administrative Roles
+## Establish RBAC Groups
 The company recently hired several new employees for different departments. Rather than assigning permissions directly to each employee, the IAM team creates role-assignable security groups that represent job functions.
+
+1. Go to Entra ID -> Groups -> New Group
