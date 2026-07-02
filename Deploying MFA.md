@@ -17,7 +17,7 @@ Step 1: Go to Overview -> Properties -> Scroll down to **Manage Security Default
 <img width="540" height="759" alt="image" src="https://github.com/user-attachments/assets/ceaac68f-f97e-403c-8e3e-29db08aa545b" />
 
 As we've seen before, when logging into created accounts, such as Jeff Green or Dim Green (refer to `RBAC Design.md`), we had to use the Microsoft Authenticator app on our phones (or other device) to login in. Security defaults
-enforce MFA for all users. This is a minimal configuration, as there are no scopings, custom conditions, etc. As an organization matures, **Conditional Access Policies** are able to prove more granular policies.
+enforce MFA for all users. This is a minimal configuration, as there are no scopings, custom conditions, etc. As an organization matures, **Conditional Access Policies** are able to provide more granular policies.
 
 ## Phase 2 Part 1: Building Conditional Access (CA) Policies
 Before starting, we need to turn off Security Defaults, as Entra blocks you if you try to enable a CA policy that utilizies MFA while this is on. Entra will ask you why you are disabling the defaults, just pick the option
