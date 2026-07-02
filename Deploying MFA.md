@@ -8,6 +8,7 @@ To reduce the risk of unauthorized access, the IAM team has been tasked with imp
 The deployment will occur in two phases:
 
 Phase 1: Enable Microsoft Entra Security Defaults to establish a baseline MFA policy across the tenant.
+
 Phase 2: Replace Security Defaults with a Conditional Access policy that requires MFA for privileged administrative accounts, allowing greater flexibility while protecting the organization's most sensitive accounts.
 
 ## Phase 1: Security Defaults
