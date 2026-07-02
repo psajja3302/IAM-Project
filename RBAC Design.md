@@ -17,7 +17,7 @@ Mapped RBAC Roles
 | IT Operations | `Engineering` (dynamic) | `RBAC-IT-Admins` | Helpdesk Administrator |
 | Human Resources | `HR` (dynamic) | `RBAC-HR` | User Administrator |
 | Finance | `Finance` (dynamic) | `RBAC-Finance` | *(none — read only)* |
-| Security | `Security` (dynamic) | `RBAC-Security` | *(none — future: Security Reader)* |
+| Security | `Security` (dynamic) | `RBAC-Security` | Security Administrator |
 | Engineering | `Engineering` (dynamic) | `RBAC-Standard-Users` | *(none — baseline)* |
 
 As you can see, Phase 1's dynamic groups remain for organizational structure, while Phase 2 implements security groups specifically for permission management.
@@ -33,3 +33,18 @@ As you can see, Phase 1's dynamic groups remain for organizational structure, wh
 The company recently hired several new employees for different departments. Rather than assigning permissions directly to each employee, the IAM team creates role-assignable security groups that represent job functions.
 
 1. Go to Entra ID -> Groups -> New Group
+2. Set up the group settings like how I did in the image below:
+
+<img width="693" height="497" alt="image" src="https://github.com/user-attachments/assets/6dd35ab8-6f91-423a-aafe-2bd0edc68e13" />
+
+3. Add the appropriate member(s) to the group
+4. Repeat for each group using the mapping table (Mapped RBAC Roles) above
+5. After completing the creation of all groups, you should be able to see them in the "Groups" tab
+
+<img width="968" height="212" alt="image" src="https://github.com/user-attachments/assets/6aecaa88-4322-474a-8bba-dc68d6cb16b9" />
+
+6. After clicking on a group, you should be able to see the correct user assigned (Please refer to the "UserLifecycleManagement markdown file)
+<img width="726" height="360" alt="image" src="https://github.com/user-attachments/assets/af3bfabe-59f6-4e32-975e-076c03176e29" />
+
+
+
