@@ -21,28 +21,41 @@ enforce MFA for all users. This is a minimal configuration, as there are no scop
 
 ## Phase 2 Part 1: Building Conditional Access (CA) Policies
 Before starting, we need to turn off Security Defaults, as Entra blocks you if you try to enable a CA policy that utilizies MFA while this is on. Entra will ask you why you are disabling the defaults, just pick the option
-that says something along the lines of "planning to implement Conditional Access Policies". After selecting this and disabling Security Defaults, it will take you to **Conditional Access**
+that says something along the lines of "planning to implement Conditional Access Policies". After selecting this and disabling Security Defaults, it will take you to **Conditional Access**.
 
 We will be creating two policies that trigger MFA in two separate ways: If the sign-in risk is medium/high, and if the user signing in is an administrator. We will be testing these polcies with Jeff and Dim Green.
 
 Click on `Create new policy`
 
 **Trigger MFA if Sign-In Risk is Medium or High**
+
 Name: CA01-MediumHighRisk 
+
 Users: Include Test Users (Dim Green, Jeff Green) or a security group containing them. (**NOTE: Always make sure to exclude one admin user so you don't get locked out of your own policy)
+
 Target resources: All resources
+
 Conditions > Sign-in risk > check Medium and High
+
 Grant > Grant access > Require multifactor authentication
+
 Enable policy: Report-only > On
+
 
 <img width="315" height="692" alt="image" src="https://github.com/user-attachments/assets/07b59c52-8d67-47b6-a7c9-514154e3f97b" />
 
 **Trigger MFA if Administrator Sign-In**
+
 Name: CA02-AdminLogin
+
 Users: Include a Directory Role (Helpdesk Administrator: Dim Green) (**NOTE: Always make sure to exclude one admin user so you don't get locked out of your own policy)
+
 Target resources: All resources
+
 Grant > Grant access > Require multifactor authentication
+
 Enable policy: Report-only > On
+
 
 <img width="313" height="835" alt="image" src="https://github.com/user-attachments/assets/82fd6c25-24d6-463d-a571-149934ab5767" />
 
