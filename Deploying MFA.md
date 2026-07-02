@@ -13,6 +13,7 @@ Phase 2: Replace Security Defaults with a Conditional Access policy that require
 
 ## Phase 1: Security Defaults
 Step 1: Go to Overview -> Properties -> Scroll down to **Manage Security Defaults**. This setting should be turned on already
+
 <img width="540" height="759" alt="image" src="https://github.com/user-attachments/assets/ceaac68f-f97e-403c-8e3e-29db08aa545b" />
 
 As we've seen before, when logging into created accounts, such as Jeff Green or Dim Green (refer to `RBAC Design.md`), we had to use the Microsoft Authenticator app on our phones (or other device) to login in. Security defaults
