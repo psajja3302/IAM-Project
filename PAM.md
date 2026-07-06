@@ -49,7 +49,7 @@ By going to "My audit history" in PIM, we are able to see the actions that have 
 This project demonstrated how Entra's PIM implements JIT access by replacing permanent administrative assignments with eligible assignments that require activation. I configured an administrator role to require MFA, a relevant justification, and a limited activation duration before the role privileges were granted. This approach reduces the risks associated with permanent privileges because administrative access exists only when needed. Implementing PIM in Entra reinforced my understanding of the principle of least privilege and how PAM strengthens an organization's overall security posture by minimizing the attack surface for attackers to misuse privileged accounts.
 
 ## Next Steps
-Please move to the `Access Reviews/Audit.md` file next.
+Please move to the `Access Reviews&Audit.md` file next.
 
 
 
