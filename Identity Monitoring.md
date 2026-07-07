@@ -1,13 +1,10 @@
 # Identity Monitoring
 Gitty Solutions recently completed several identity security improvements, such as:
 
-MFA deployment
-
-RBAC implementation
-
-Privileged Identity Management
-
-Access Reviews
+- MFA deployment
+- RBAC implementation
+- Privileged Identity Management
+- Access Reviews
 
 
 Leadership now wants continuous monitoring to detect suspicious authentication activity before an account is compromised.
