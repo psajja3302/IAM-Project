@@ -34,7 +34,7 @@ From **Monitoring & health**, navigate towards **audit logs**.
 
 <img width="1143" height="826" alt="image" src="https://github.com/user-attachments/assets/8dc0372d-7bdc-43a8-b06f-00ca6fa8424c" />
 
-By clicking on the date, you can see all the metadata of that log. I analyzed the first log, which was titled "Validate user activity". In the log, I was able to see that I was the target user, illustrating that I had 
+By clicking on the date, you can see all the metadata of that log. I analyzed the first log, which was titled "Validate user authentication". In the log, I was able to see that I was the target user, illustrating that I had 
 recently logged in.
 
 <img width="565" height="137" alt="image" src="https://github.com/user-attachments/assets/95ea3799-3d51-4a2e-9edc-904ebb20d936" />
