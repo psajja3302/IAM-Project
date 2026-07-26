@@ -21,12 +21,12 @@ In Entra's Admin Center, navigate towards App Registrations on the left hand sid
 Register the application.
 1. After registering the application, click on **Certificates and Secrets** on the left hand management side. Create a new client secret and copy that value
 2. Now, navigate towards **API Permissions**. Click on "add permission" and select **Microsoft Graph**. Click on "delegated permissions". You will now be able to select a tremendous amount of permissions, but we only need a few for basic scripting. The permissions below are the ones we will add, and explanations are written alongside them.
-|Permissions|Explanation|
-|---|---|
-|User.ReadWrite.All|Allows you to create and delete users|
-|Group.Read.All|Allows you to pull groups and read them|
-|GroupMember.Read.All|Allows you to read group memberships within a group|
-|AuditLog.Read.All|Allows you to read sign in logs and authentication events|
+| Permissions | Explanation |
+| --- | --- |
+| User.ReadWrite.All | Allows you to create and delete users |
+| Group.Read.All | Allows you to pull groups and read them |
+| GroupMember.Read.All | Allows you to read group memberships within a group |
+| AuditLog.Read.All | Allows you to read sign in logs and authentication events |
 
 
 
