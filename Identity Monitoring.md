@@ -44,6 +44,3 @@ We can also similarly export this log data as a CSV file and then use Python to 
 # Reflection
 This project demonstrated how Entra's ID Protection provides visibility into authentication activity. I reinforced my understanding of how to investigate and interpret login events/audit logs by reviewing user identities, IP addresses, locations, 
 MFA status, Conditional Access outcomes, etc. This project also reinforced the importance of continuous identity monitoring as part of a defense-in-depth IAM strategy.
-
-## Next Steps
-Please move to the ```Automation Scripting.md``` file next.
